@@ -8,7 +8,7 @@ set :port, 4567
 
 # Root endpoint
 get '/' do
-  "Welcome to the Custom Profiler API!"
+  "Welcome to the Profiler Sandbox!"
 end
 
 # Profile endpoint - returns sample profile data
@@ -39,7 +39,7 @@ get '/health' do
   })
 end
 
-# Custom profiler endpoint - simulates collecting profiling data
+# Profiler Sandbox endpoint - simulates collecting profiling data
 post '/profile/collect' do
   content_type :json
   

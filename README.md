@@ -1,4 +1,4 @@
-# Custom Profiler API
+# Profiler Sandbox API
 
 A simple Rack-based API for collecting and retrieving profiling data.
 
@@ -16,13 +16,13 @@ A simple Rack-based API for collecting and retrieving profiling data.
 Build the Docker image:
 
 ```bash
-docker build -t custom-profiler .
+docker build -t profiler-sandbox .
 ```
 
 Run the container:
 
 ```bash
-docker run -p 4567:4567 custom-profiler
+docker run -p 4567:4567 profiler-sandbox
 ```
 
 The API will be available at http://localhost:4567
